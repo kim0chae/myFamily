@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<title>brother</title>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="colors.js"></script>
+<link rel="stylesheet" href="style.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PN1KFP3XCP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PN1KFP3XCP');
+</script>
+</head>
+<body>
+  <input type="button" value="다크모드 ON" onclick="
+    nightDayHandler(this);
+  ">
+  <h1><a href="index.html">♥︎우리 가족♥︎</a></h1>
+  <h2>
+    우리 가족은 총 4명이다. 구성원은 다음과 같다.
+  </h2>
+  <div id="grid">
+      <ol>
+        <li><a href="mom.html">엄마</a></li>
+        <li><a href="dad.html">아빠</a></li>
+        <li><a href="brother.html" id="active">오빠</a></li>
+        <li><a href="me.html">나</a></li>
+      </ol>
+    <div>
+      <h3>3. 오빠</h3>
+      <img src="brother.jpg" width="80%">
+      <h4>
+        <p>1) 이름 : 김영도</p>
+        <p>2) 생년월일 : 1997년 6월 26일</p>
+        <p>3) 직업 : 대학생</p>
+      </h4>
+    </div>
+  </div>
+
+<p>
+  <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://my-family-6.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+</body>
+</html>
